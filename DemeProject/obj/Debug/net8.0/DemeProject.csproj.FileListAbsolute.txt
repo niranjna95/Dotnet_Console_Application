@@ -1,0 +1,14 @@
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/bin/Debug/net8.0/DemeProject
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/bin/Debug/net8.0/DemeProject.deps.json
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/bin/Debug/net8.0/DemeProject.runtimeconfig.json
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/bin/Debug/net8.0/DemeProject.dll
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/bin/Debug/net8.0/DemeProject.pdb
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.AssemblyInfoInputs.cache
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.AssemblyInfo.cs
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.csproj.CoreCompileInputs.cache
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.dll
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/refint/DemeProject.dll
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.pdb
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.genruntimeconfig.cache
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/ref/DemeProject.dll
