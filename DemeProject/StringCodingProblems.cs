@@ -41,71 +41,46 @@ public static class StringCodingProblems
         //Output: True
     }
 
-    public static void SomeUseFullMethodOfStringClass()
+    public static void SomeUsefulMethodsOfStringClass()
     {
         string stringValue = " FullStack Development ";
 
         //1. Get length of the string
-        Console.WriteLine(stringValue.Length);//Output:23
+        Console.WriteLine(stringValue.Length); // Output: 23
 
-        //2. Get index of specific character
-        Console.WriteLine(stringValue[5]);//Output: S
+        //2. Get character at specific index
+        Console.WriteLine(stringValue[5]); // Output: S
 
-        //3. Get sub-string based on index
-        string subString = stringValue.Substring(5, 5);// Output: Stack
-        Console.WriteLine(subString);
+        //3. Get substring based on index
+        string subString = stringValue.Substring(5, 5);
+        Console.WriteLine(subString); // Output: Stack
 
         //4. Get index of a character
-        int index = stringValue.IndexOf("D");//Output: 11
-        Console.WriteLine(index);
+        int index = stringValue.IndexOf("D");
+        Console.WriteLine(index); // Output: 11
 
-        //5. Remove the white spaces from start and end
+        //5. Remove white spaces from start and end
         string trimmedValue = stringValue.Trim();
-        Console.WriteLine(trimmedValue);// Output: FullStack Development
+        Console.WriteLine(trimmedValue); // Output: FullStack Development
 
-        //6. Replace a part of old string with some new string
-        string replacedValue = stringValue.Trim().Replace("Development", ".Net Development");
-        Console.WriteLine(replacedValue);//Output: FullStack .Net Development
+        //6. Replace old string with new string
+        string replacedValue = stringValue.Trim()
+                                          .Replace("Development", ".Net Development");
+        Console.WriteLine(replacedValue);
+        // Output: FullStack .Net Development
 
-        //7. Split the string in parts based on delimeters
-        string[] parts = stringValue.Split(' ');
+        //7. Split string based on delimiter
+        string[] parts = stringValue.Trim().Split(' ');
         foreach (var part in parts)
         {
             Console.WriteLine(part);
-            /*Output:
-             FullStack
-             Development
-            */
         }
 
-        //8. Convert the string to character array
-        char[] charArray = stringValue.ToCharArray();
-        for (int i = 0; i < charArray.Length; i++)
+        //8. Convert string to character array
+        char[] charArray = stringValue.Trim().ToCharArray();
+        foreach (char ch in charArray)
         {
-            Console.WriteLine(charArray[i]);
-            /* Output: 
-                F
-                u
-                l
-                l
-                S
-                t
-                a
-                c
-                k
-
-                D
-                e
-                v
-                e
-                l
-                o
-                p
-                m
-                e
-                n
-                t
-            */
+            Console.WriteLine(ch);
         }
     }
 
