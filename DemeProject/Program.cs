@@ -31,4 +31,4 @@
 //StringCodingProblems.CountNumberOfCharInString();
 //StringCodingProblems.ReverseString();
 //StringCodingProblems.CheckPalindrome();
-StringCodingProblems.FindLongestWordInSentence();
+StringCodingProblems.AraAnagrems();

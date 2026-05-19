@@ -100,4 +100,42 @@ public static class StringCodingProblems
         Console.WriteLine(longestWord);//Output: practices
 
     }
+
+    public static void CountVowels()
+    {
+        string inputString = "Niranjan";
+        string vowels = "aeiouAEIOU";
+        int vowelsCount = 0;
+
+        foreach (char ch in inputString)
+        {
+            if (vowels.IndexOf(ch) != -1)
+            {
+                vowelsCount++;
+            }
+        }
+
+        Console.WriteLine(vowelsCount);
+    }
+
+    public static void AraAnagrems()
+    {
+        string inputTextOne = "listen";
+        string inputTextTwo = "silent";
+        //Convert both the strings to charatcter arrays
+        char[] charArray1 = inputTextOne.ToCharArray();
+        char[] charArray2 = inputTextTwo.ToCharArray();
+
+        Array.Sort(charArray1);
+        Array.Sort(charArray2);
+
+        for (int i = 0; i < charArray1.Length; i++)
+        {
+            if (charArray1[i] != charArray2[i])
+            {
+                Console.WriteLine(false);
+            }
+        }
+        Console.WriteLine(true);
+    }
 }

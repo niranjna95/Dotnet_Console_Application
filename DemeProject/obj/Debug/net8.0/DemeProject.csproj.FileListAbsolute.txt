@@ -12,3 +12,4 @@
 /Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.pdb
 /Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.genruntimeconfig.cache
 /Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/ref/DemeProject.dll
+/Users/niranjan/Documents/C#_Console_Application/DemeProject/obj/Debug/net8.0/DemeProject.sourcelink.json
