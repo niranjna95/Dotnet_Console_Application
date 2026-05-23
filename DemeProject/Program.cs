@@ -31,4 +31,7 @@
 //StringCodingProblems.CountNumberOfCharInString();
 //StringCodingProblems.ReverseString();
 //StringCodingProblems.CheckPalindrome();
-StringCodingProblems.AraAnagrems();
+//StringCodingProblems.AraAnagrems();
+
+//***************************Number Coding Problems********************************
+NumberCodingProblems.GenerateFibonacci();
