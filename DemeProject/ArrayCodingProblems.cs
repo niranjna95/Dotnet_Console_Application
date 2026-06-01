@@ -235,4 +235,68 @@ public static class ArrayCodingProblems
         return newArray;
     }
     #endregion
+
+    public static void BubbleSortArray()
+    {
+        int[] array = { 5, 2, 9, 1 };
+
+        int n = array.Length;
+        bool swapped;
+        for (int i = 0; i < n - 1; i++)
+        {
+            swapped = false;
+            for (int j = 0; j < n - 1; j++)
+            {
+                if (array[j] > array[j + 1])
+                {
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                    swapped = true;
+                }
+            }
+
+            if (!swapped) break;
+        }
+        Console.WriteLine($"[{string.Join(",", array)}]");
+
+    }
+
+
+    //HCLTech InterView Question 01-06-2026
+    public static void RemoveDuplicatInStringArray()
+    {
+        string[] inputArray = { "Monday", "Tusday", "Wensday", "Monday", "Tusday", "Friday" };
+
+        string[] uniqueArray = new string[inputArray.Length];
+        int count = 0;
+
+
+        for (int i = 0; i < inputArray.Length; i++)
+        {
+
+            bool isExist = false;
+            for (int j = 0; j < count; j++)
+            {
+                if (inputArray[i] == uniqueArray[j])
+                {
+                    isExist = true;
+                    break;
+                }
+            }
+
+            if (!isExist)
+            {
+                uniqueArray[count] = inputArray[i];
+                count++;
+            }
+        }
+
+
+        for (int y = 0; y < count; y++)
+        {
+
+            Console.WriteLine(uniqueArray[y]);
+        }
+    }
 }

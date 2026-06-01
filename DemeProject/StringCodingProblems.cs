@@ -139,5 +139,47 @@ public static class StringCodingProblems
         Console.WriteLine(true);
     }
 
+    public static void FindDuplicateCharInString()
+    {
+        string input = "programming";
+
+        Dictionary<char, int> CoutChar = new Dictionary<char, int>();
+
+        foreach (char ch in input)
+        {
+            if (CoutChar.ContainsKey(ch))
+            {
+                CoutChar[ch]++;
+            }
+            else
+            {
+                CoutChar[ch] = 1;
+            }
+        }
+
+        foreach (var item in CoutChar)
+        {
+            if (item.Value > 1)
+            {
+                Console.WriteLine($"{item.Key} : {item.Value}");
+            }
+        }
+    }
+    public static void FirstSecondHightesSalary()
+    {
+        var Salarys = new List<int>()
+     {
+           10000,
+           20000,
+           30000,
+
+     };
+
+        //var secondHightSalary = Salarys.OrderByDescending(x => x).Where(x => x < Salarys.OrderByDescending(x => x).FirstOrDefault()).FirstOrDefault();
+        var secondHightSalary = Salarys.OrderByDescending(x => x).Skip(1).FirstOrDefault();
+        Console.WriteLine(secondHightSalary);
+
+    }
+
 
 }

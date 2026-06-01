@@ -6,7 +6,7 @@
 // Encapsulation class calling
 //Employee employee = new Employee();
 //employee.EmpExperience =3;
-
+//*****************************************Array Coding Problems*************************
 //int[] numbers ={10,7,23,45,8};
 //int[] numbers = { 10, 7, 23, 45, 8, 10, 4, 7, 23 };
 //var result = ArrayCodingProblems.FindSecondLargestNumberInArray();
@@ -26,12 +26,13 @@
 //int[] mergedArray = ArrayCodingProblems.MergeAndSort(firstArray, secondArray);
 //int[] newArray = ArrayCodingProblems.RemoveElement(array, elementRemove);
 //Console.WriteLine($"[{string.Join(",", newArray)}]");
+ArrayCodingProblems.RemoveDuplicatInStringArray();
 
 // ******************String Coding Problems*************************
 //StringCodingProblems.CountNumberOfCharInString();
 //StringCodingProblems.ReverseString();
 //StringCodingProblems.CheckPalindrome();
-//StringCodingProblems.AraAnagrems();
+//StringCodingProblems.FirstSecondHightesSalary();
 
 //***************************Number Coding Problems********************************
-NumberCodingProblems.GenerateFibonacci();
+//NumberCodingProblems.GenerateFibonacci();
